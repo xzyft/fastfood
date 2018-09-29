@@ -1,0 +1,82 @@
+.head{
+	width:100%;
+	height:0.88rem;
+	background:#DCDCDC;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.head>.left{
+	display: block;
+	width:0.4rem;
+	height: 0.4rem;
+	margin-right: 0.4rem;
+	/*float: left;*/
+	/*margin-top: 0.24rem;*/
+}
+.head>.left>i{
+	font-size: 0.4rem;
+	display: block;
+	color: #515050;
+}
+.head>div{
+	width:5rem;
+	height: 0.4rem;
+	background: #e6e6e6;
+	flex:1;
+	/*float: left;*/
+	/*margin-top: 0.24rem;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.head>.right{
+	font-size: 0.38rem;
+	line-height: 0.4rem;
+	/*float: right;*/
+	line-height: 0.4rem;
+	/*margin-top: 0.24rem;*/
+	color: #FF8C00;
+	margin-left: 0.24rem;
+	
+}
+.head>div>i{
+	/*display: block;*/
+	/*float: left;*/
+	line-height: 0.4rem;
+	font-size: 0.34rem;
+	margin-right: 0.2rem;
+}
+.head>div>input{
+	flex:1;
+	/*float: left;*/
+	background: #e6e6e6;
+	border: none;
+	line-height: 0.4rem;
+	display:block;
+}
+.da{
+	width: 100%;
+	padding: 0.24rem;
+	font-size: 0.28rem;
+	color: #8C8A8A;
+}
+.sss,.aaa{
+	width: 100%;
+	height: 0.5rem;
+	padding: 0.2rem  0.24rem;
+	margin-bottom: 0.24rem;
+	/*display: inline-block;*/
+}
+.sss>div,.aaa>div{
+	/*width:1.4rem;*/
+	background: #807F83;
+	height: 0.5rem;
+	/*display: inline-block;*/
+	float: left;
+	font-size: 0.24rem;
+	padding: 0.12rem;
+	line-height:0.24rem;
+	margin-right: 0.24rem;
+}

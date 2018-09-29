@@ -1,0 +1,35 @@
+.head{
+	width: 100%;
+	height: 10rem;
+}
+.head>.tu{
+	width: 100%;
+	height: 10rem;
+}
+.head>.tu>img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.ban{
+	width: 100%;
+	height: 0.66rem;
+	margin-top: 1.4rem;
+	/*background: #00BFFF;*/
+	padding: 0 0.84rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ban>a{
+	display: block;
+	width: 2.27rem;
+	height: 0.66rem;
+	background-color: #f8b42e;
+	border-radius: 0.33rem;
+	font-size: 0.36rem;
+	color: #070707;
+	line-height: 0.66rem;
+	text-align: center;
+}
